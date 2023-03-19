@@ -1,0 +1,54 @@
+body {
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    /* centered column with flex */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 12px;
+}
+#array {
+    min-height: 20px;
+    width: 720px;
+    word-wrap: break-word;
+    border-radius: 12px;
+}
+
+video {
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    display: none;
+    width: auto;
+    height: auto;
+    border-radius: 12px;
+}
+
+.video {
+    border-radius: 12px;
+}
+
+.predict {
+    background-color: #e6a39c;
+    color: white;
+}
+
+button {
+    border-radius: 4px;
+    font-size: 15px;
+    align-items: center;
+}
+
+.buttons {
+    text-align: center;
+    width: 24%;
+}
+
+button:hover {
+    background-color: grey;
+
+}
